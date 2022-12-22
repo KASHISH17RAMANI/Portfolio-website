@@ -1,0 +1,449 @@
+/* CSS RESET*/
+
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* css variables*/
+
+:root {
+    --navbar-height: 100px;
+}
+
+/* Navigation bar*/
+#navbar {
+    display: flex;
+    align-items: center;
+}
+
+/*Navigation bar: LOGO AND image */
+#logo {
+    margin: 30 px, 20 px;
+
+    /* work on it */
+}
+
+#logo img {
+    margin: 1px, 3px;
+    /* work on it */
+    height: 4 px;
+    /* work on it */
+}
+
+/*Navigation bar: LIST STYLING */
+
+#navbar {
+    position: relative;
+}
+
+#navbar ul {
+    display: flex;
+    background-color: goldenrod;
+    width: 100%;
+    height: 300%
+}
+
+#navbar ::before {
+    content: " ";
+    background-color: goldenrod;
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0;
+
+}
+
+#navbar ul li {
+    list-style: none;
+    font-size: 1.9 rem;
+}
+
+#navbar ul li a {
+    color: black;
+    display: block;
+    padding: 3px 22px;
+    border-radius: 20px;
+    text-decoration: none;
+
+
+}
+
+#navbar ul li a:hover {
+    color: white;
+    background-color: black;
+
+
+}
+
+/* home section  */
+#home {
+
+    display: flex;
+    flex-direction: column;
+    padding: 100px 400px;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    opacity: 1;
+
+
+}
+
+#home::before {
+    content: " ";
+
+    position: relative;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+    opacity: 0.4;
+}
+
+#home h1 {
+    color: black;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    font-size: 2rem;
+}
+
+#home p {
+    color: black;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: 'Bree Serif', serif;
+}
+
+/* services section */
+
+#services {
+
+    display: flex;
+
+}
+
+#services .box {
+    border: 10px solid goldenrod;
+    padding: 50px;
+    margin: 6px;
+    border-radius: 10px;
+
+}
+
+
+#services .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+#services .box p {
+    font-family: 'Bree Serif', serif;
+    height: 100px;
+}
+
+/* Family section */
+
+#family {
+
+    display: flex;
+
+}
+
+#family .box {
+    border: 10px solid goldenrod;
+    padding: 50px;
+    margin: 6px;
+    border-radius: 10px;
+
+}
+
+
+#family .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+
+}
+
+#family .box p {
+    font-family: 'Bree Serif', serif;
+    height: 100px;
+}
+
+/* SKILL SECTION */
+
+#skills {
+
+    display: flex;
+
+}
+
+#skills .box {
+    border: 10px solid goldenrod;
+    padding: 50px;
+    margin: 6px;
+    border-radius: 10px;
+
+}
+
+
+#skills .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+#skills .box p {
+    font-family: 'Bree Serif', serif;
+    height: 100px;
+}
+/* LINK SECTION */
+
+#Links {
+
+    display: center;
+
+}
+
+#Links .box {
+    border: 10px solid goldenrod;
+    padding: 50px;
+    margin: 6px;
+    border-radius: 10px;
+
+}
+
+
+#Links .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+    padding:50px
+}
+
+
+
+
+
+#Links .box p {
+    font-family: 'Bree Serif', serif;
+    height: 100px;
+}
+/* location SECTION */
+
+#Location {
+
+    display: flex;
+
+}
+
+#Location .box {
+    border: 10px solid goldenrod;
+    padding: 50px;
+    margin: 60px;
+    border-radius: 10px;
+
+}
+
+
+#location .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+#location .box p {
+    font-family: 'Bree Serif', serif;
+    height: 10px;
+}
+/* further section */
+#furtherinfo {
+
+    display: flex;
+
+}
+
+#furtherinfo.box {
+    border: 10px solid goldenrod;
+    padding: 50px;
+    margin: 60px;
+    border-radius: 10px;
+
+}
+
+
+#furtherinfo .box img {
+    height: 100px;
+    margin: auto;
+    display: block;
+}
+
+#furtherinfo.box p {
+    font-family: 'Bree Serif', serif;
+    height: 10px;
+}
+
+
+/* ultility classes */
+
+.h-primary {
+    font-size: 2.3rem;
+    font-family: 'Bree Serif', serif;
+    font-size: 3.8rem;
+    padding: 2px;
+}
+
+.h-secondry {
+    font-size: 2.3rem;
+    font-family: 'Bree Serif', serif;
+    padding: 18px;
+}
+
+.btn {
+    padding: 6px 20px;
+    border: 2px solid goldenrod;
+    background-color: black;
+    color: white;
+    margin: 17px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    cursor: pointer;
+    align-items: center;
+}
+
+.center {
+    text-align: center;
+}
+
+#footer .logo img {
+    height: 100px;
+    margin: 17px;
+    display: block;
+}
+
+#footer .center{
+   background-color: black;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 50px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+/* body.dark {
+    background-color: #292c35;
+}
+
+.checkbox {
+    opacity: 0;
+    position: absolute;
+}
+
+.label {
+    width: 50px;
+    height: 26px;
+    background-color: #111;
+    display: flex;
+    border-radius: 50px;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px;
+    position: relative;
+    transform: scale(1.5);
+}
+
+.ball {
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    border-radius: 50%;
+    transition: transform 0.2s linear;
+}
+
+/*  target the elemenent after the label*/
+/* .checkbox:checked+.label .ball {
+    transform: translateX(24px);
+}
+
+.fa-moon {
+    color: pink;
+}
+
+.fa-sun {
+    color: yellow;
+} */ 
+
+/* toglee dark and night mode */
+/* label {
+  width:500px;
+  height:200px;
+  position: relative;
+  display: block;
+  background: #ebebeb;
+  border-radius: 200px;
+  box-shadow: inset 0px 5px 15px rgba(0,0,0,0.4), inset 0px -5px 15px rgba(255,255,255,0.4);
+  cursor: pointer;
+}
+
+label:after {
+  content: "";
+  width:180px;
+  height: 180px;
+  position: absolute;
+  top:10px;
+  left:10px;
+  background: linear-gradient(180deg,#ffcc89,#d8860b);
+  border-radius: 180px;
+  box-shadow: 0px 5px 10px rgba(0,0,0,0.2);
+}
+input {
+  width: 0;
+  height: 0;
+  visibility: hidden;
+}
+
+input:checked + label {
+  background: #242424;
+}
+input:checked + label:after {
+  left:490px;
+  transform: translateX(-100%);
+  background: linear-gradient(180deg,#777,#3a3a3a);
+}
+label, label:after {
+  transition: 0.3s
+}
+
+label:active:after{ 
+  width: 260px; 
+}
+
+.background {
+  width:100vw;
+  height: 100vh;
+  z-index: -1;
+  position: absolute;
+  transition: 0.3s;
+}
+
+input:checked + label + .background {
+  background:#242424;
+} */
